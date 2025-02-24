@@ -1,0 +1,58 @@
+[project]
+name = "dagster_tutorial"
+version = "0.0.1"
+description = "Dagster tutorial"
+dependencies = [
+    "dagster>=1.10.1",
+    "dagster-duckdb>=0.26.1",
+    "dagster-webserver>=1.10.1",
+    "pandas>=2.2.3",
+    "pytest>=8.3.4",
+    "setuptools>=75.8.0",
+]
+requires-python = ">=3.12"
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+[tool.dagster]
+module_name = "etl_tutorial.definitions"
+code_location_name = "etl_tutorial"
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
+# include = ["src"]
+defineConstant = { DEBUG = true }
+reportMissingImports = "error"
+reportMissingTypeStubs = false
+[tool.ruff]
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".ipynb_checkpoints",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pyenv",
+    ".pytest_cache",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    ".vscode",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "site-packages",
+    "venv",
+]
+[tool.ruff.lint]
+unfixable = ["F401"]
+
