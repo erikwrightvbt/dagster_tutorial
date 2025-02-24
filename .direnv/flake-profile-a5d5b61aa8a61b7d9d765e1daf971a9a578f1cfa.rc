@@ -7,19 +7,19 @@ AR='ar'
 export AR
 AS='as'
 export AS
-BASH='/nix/store/x7m765hh1m4yikg9spw18lxldddvdnd0-bash-5.2p37/bin/bash'
+BASH='/nix/store/r6hp1dz7lhg07z4qq9db91xf532f7xk8-bash-5.2p37/bin/bash'
 CC='clang'
 export CC
-CONFIG_SHELL='/nix/store/x7m765hh1m4yikg9spw18lxldddvdnd0-bash-5.2p37/bin/bash'
+CONFIG_SHELL='/nix/store/r6hp1dz7lhg07z4qq9db91xf532f7xk8-bash-5.2p37/bin/bash'
 export CONFIG_SHELL
 CXX='clang++'
 export CXX
 DETERMINISTIC_BUILD='1'
 export DETERMINISTIC_BUILD
-DEVELOPER_DIR='/nix/store/ca250dchzidqi7a97zf3ldn1abcry2qy-apple-sdk-11.3'
+DEVELOPER_DIR='/nix/store/lsjl29pwp5if71jfgxlv8fifsrpax805-apple-sdk-11.3'
 export DEVELOPER_DIR
 HOSTTYPE='aarch64'
-HOST_PATH='/nix/store/qlaqnmlh2fl0higl49jdfwa4054p6ra1-pyright-1.1.392/bin:/nix/store/c58pgxyyagq8kgf2pylh43pkvr23dn4n-python3-3.13.1/bin:/nix/store/a87xsaqj28zp5j5diin6x1dk20l9da3y-ruff-0.9.6/bin:/nix/store/w4nazrllmbx6kbp0bxwxxaz0axgk459x-uv-0.6.0/bin:/nix/store/msf2qxhv4971d669lmmjfp7kynj34jsy-libiconv-107/bin:/nix/store/y47p66ilr9q34s9mizscsdxw5vxq62qj-coreutils-9.5/bin:/nix/store/kjdn4yl7mx8dmgpxnfff1y298rbn13ap-findutils-4.10.0/bin:/nix/store/plbyfv574ij7r3riiyfrjk9i4d3b9nh6-diffutils-3.10/bin:/nix/store/y5izbakp8bqkrvl16nxg0zf3lmh4qrhq-gnused-4.9/bin:/nix/store/cb9y42w5z8p2wzpilfq9cx5lbx209q80-gnugrep-3.11/bin:/nix/store/fh2m05ig1xxryfkmxqnch2d3sav5hp5b-gawk-5.3.1/bin:/nix/store/kml4nkxhnb5w390alsmg1lv5ymq2afji-gnutar-1.35/bin:/nix/store/ydgz3dfagl1igzrlz33rzqy5hq19ayg1-gzip-1.13/bin:/nix/store/rwn5j32sm1mp70709pj67ax523sj7pny-bzip2-1.0.8-bin/bin:/nix/store/sbi3qw92i2lmm50agfl6hyys4ns5p1cb-gnumake-4.4.1/bin:/nix/store/x7m765hh1m4yikg9spw18lxldddvdnd0-bash-5.2p37/bin:/nix/store/d0vwvhw1z9jc7y7bpvqjdrrd5i698vp5-patch-2.7.6/bin:/nix/store/jixybrx7kl4fppd0sbd2ay0j2f3d8rdh-xz-5.6.3-bin/bin:/nix/store/21yzv1p120idh8iq8h3561cbpgjh0jdv-file-5.46/bin'
+HOST_PATH='/nix/store/hlhq9hclalsz8wyi8qbvrgf59w8xwv7s-pyright-1.1.392/bin:/nix/store/jn2aff295cbc8hpfpnl8iz7zdfi2dyhk-python3-3.13.2/bin:/nix/store/jp5w55rf2nr1z14dcimyrymkz147b0hq-ruff-0.9.6/bin:/nix/store/s9fwm8wa6k557qgzw8ggh3vzvc6mxghs-uv-0.6.2/bin:/nix/store/i0b08c8m02rs2sazmd7sr2zxbnz6ylsf-libiconv-109/bin:/nix/store/fc3m1n18s3a5rs4fffaqhiykvdx7s32n-coreutils-9.6/bin:/nix/store/c15yf86kbhsms01nylmfrwqczks5jgpq-findutils-4.10.0/bin:/nix/store/p6b6jmbwx1khdalzfq3llq5lxwpdj5sd-diffutils-3.10/bin:/nix/store/9kycqy5a6dcg236ahyl5n9g4ffq9hr5m-gnused-4.9/bin:/nix/store/0hyrbiwq9v43bpd9qmysscjynz7jl3s0-gnugrep-3.11/bin:/nix/store/qrwd1gm74raf808mgxf7q64lcrcrd00k-gawk-5.3.1/bin:/nix/store/20p718g1snq888pm73xhgjc9wx9pdfad-gnutar-1.35/bin:/nix/store/yma338pjwzvfic09qrg21rappjbd2a5h-gzip-1.13/bin:/nix/store/2wdyvqj4fg13rzm3cjmvqnhn1h4n5rm4-bzip2-1.0.8-bin/bin:/nix/store/27xhi94aggy63f3dcf349cln833hjkd8-gnumake-4.4.1/bin:/nix/store/r6hp1dz7lhg07z4qq9db91xf532f7xk8-bash-5.2p37/bin:/nix/store/8f3i51k7g7gpq8d5ccxlsw3nz1k5fjyj-patch-2.7.6/bin:/nix/store/6h0ikxcgrcf81zrris7v4bidsw0763qz-xz-5.6.4-bin/bin:/nix/store/sqpjj3a0390ll3vacdjlybkikh135gz4-file-5.46/bin'
 export HOST_PATH
 IFS=' 	
 '
@@ -29,25 +29,25 @@ LD='ld'
 export LD
 LD_DYLD_PATH='/usr/lib/dyld'
 export LD_DYLD_PATH
-LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/nix/store/cx5gh7gwhv06j4llivklbkfxyfgnk3sp-clang-19.1.7-lib/lib'
+LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/nix/store/cyrakdc5rxkzz36hfjgg6r1yig0infbs-clang-19.1.7-lib/lib'
 export LD_LIBRARY_PATH
 LINENO='76'
-MACHTYPE='aarch64-apple-darwin24.2.0'
+MACHTYPE='aarch64-apple-darwin24.3.0'
 MACOSX_DEPLOYMENT_TARGET='11.3'
 export MACOSX_DEPLOYMENT_TARGET
 NIX_APPLE_SDK_VERSION='110300'
 export NIX_APPLE_SDK_VERSION
-NIX_BINTOOLS='/nix/store/5678l9bsk2idc35jgbvanpdn690gha5g-cctools-binutils-darwin-wrapper-1010.6'
+NIX_BINTOOLS='/nix/store/8v19r3366y400xmmsnpslpyddck2ma1m-cctools-binutils-darwin-wrapper-1010.6'
 export NIX_BINTOOLS
 NIX_BINTOOLS_WRAPPER_TARGET_HOST_aarch64_apple_darwin='1'
 export NIX_BINTOOLS_WRAPPER_TARGET_HOST_aarch64_apple_darwin
 NIX_BUILD_CORES='8'
 export NIX_BUILD_CORES
-NIX_CC='/nix/store/d32x2hd64mhi6mrngr3690pf9g5lrqi3-clang-wrapper-19.1.7'
+NIX_CC='/nix/store/0jd4fjnnrfz0dfxbc5lgfyxjfay73i77-clang-wrapper-19.1.7'
 export NIX_CC
 NIX_CC_WRAPPER_TARGET_HOST_aarch64_apple_darwin='1'
 export NIX_CC_WRAPPER_TARGET_HOST_aarch64_apple_darwin
-NIX_CFLAGS_COMPILE=' -frandom-seed=9495mw34zv -isystem /nix/store/yckp0i2z87b91dirmhvmig2z8gn0sgb1-libcxx-19.1.7-dev/include -isystem /nix/store/3vhm10x09fcwb96hb9djiil6l5z0l5pm-compiler-rt-libc-19.1.7-dev/include -isystem /nix/store/c58pgxyyagq8kgf2pylh43pkvr23dn4n-python3-3.13.1/include -isystem /nix/store/wlcmrpqbnjm9vc9vx3xsc4b5dl18srlm-libiconv-107-dev/include -isystem /nix/store/i1s29qjrqj3i4yabrnr31i08ma7plyxr-libresolv-83-dev/include -isystem /nix/store/v2cziracyhvp9226aszhk19ql2cpahrf-libsbuf-14.1.0-dev/include -isystem /nix/store/jr7aacc5v5fp93mrv4vm0v63d3dwni91-cups-headers-2.4.11/include -isystem /nix/store/yckp0i2z87b91dirmhvmig2z8gn0sgb1-libcxx-19.1.7-dev/include -isystem /nix/store/3vhm10x09fcwb96hb9djiil6l5z0l5pm-compiler-rt-libc-19.1.7-dev/include -isystem /nix/store/c58pgxyyagq8kgf2pylh43pkvr23dn4n-python3-3.13.1/include -isystem /nix/store/wlcmrpqbnjm9vc9vx3xsc4b5dl18srlm-libiconv-107-dev/include -isystem /nix/store/i1s29qjrqj3i4yabrnr31i08ma7plyxr-libresolv-83-dev/include -isystem /nix/store/v2cziracyhvp9226aszhk19ql2cpahrf-libsbuf-14.1.0-dev/include -isystem /nix/store/jr7aacc5v5fp93mrv4vm0v63d3dwni91-cups-headers-2.4.11/include'
+NIX_CFLAGS_COMPILE=' -frandom-seed=qp2fzanin5 -isystem /nix/store/j3dhkx4m14m38drh3f40bccrwrgzlsg5-libcxx-19.1.7-dev/include -isystem /nix/store/hklang3njvw0f5mgra9vsvn3c2zi2v45-compiler-rt-libc-19.1.7-dev/include -isystem /nix/store/jn2aff295cbc8hpfpnl8iz7zdfi2dyhk-python3-3.13.2/include -isystem /nix/store/f4z2y0zn2bmrwywp67y3h21cmb6ky547-libiconv-109-dev/include -isystem /nix/store/17a9rq4bw8drbhlr3dijrmxzfqlz8z85-libresolv-83-dev/include -isystem /nix/store/34bb5prqghfl0hpindhk8xlc5s2q2xjg-libsbuf-14.1.0-dev/include -isystem /nix/store/vzi6s9yh1i12bkj9abyfp43y6x1fdzpl-cups-headers-2.4.11/include -isystem /nix/store/j3dhkx4m14m38drh3f40bccrwrgzlsg5-libcxx-19.1.7-dev/include -isystem /nix/store/hklang3njvw0f5mgra9vsvn3c2zi2v45-compiler-rt-libc-19.1.7-dev/include -isystem /nix/store/jn2aff295cbc8hpfpnl8iz7zdfi2dyhk-python3-3.13.2/include -isystem /nix/store/f4z2y0zn2bmrwywp67y3h21cmb6ky547-libiconv-109-dev/include -isystem /nix/store/17a9rq4bw8drbhlr3dijrmxzfqlz8z85-libresolv-83-dev/include -isystem /nix/store/34bb5prqghfl0hpindhk8xlc5s2q2xjg-libsbuf-14.1.0-dev/include -isystem /nix/store/vzi6s9yh1i12bkj9abyfp43y6x1fdzpl-cups-headers-2.4.11/include'
 export NIX_CFLAGS_COMPILE
 NIX_DONT_SET_RPATH='1'
 export NIX_DONT_SET_RPATH
@@ -55,11 +55,11 @@ NIX_DONT_SET_RPATH_FOR_BUILD='1'
 export NIX_DONT_SET_RPATH_FOR_BUILD
 NIX_ENFORCE_NO_NATIVE='1'
 export NIX_ENFORCE_NO_NATIVE
-NIX_HARDENING_ENABLE='bindnow format fortify fortify3 pic relro stackprotector strictoverflow zerocallusedregs'
+NIX_HARDENING_ENABLE='bindnow format fortify fortify3 pic relro stackclashprotection stackprotector strictoverflow zerocallusedregs'
 export NIX_HARDENING_ENABLE
 NIX_IGNORE_LD_THROUGH_GCC='1'
 export NIX_IGNORE_LD_THROUGH_GCC
-NIX_LDFLAGS=' -L/nix/store/cx5gh7gwhv06j4llivklbkfxyfgnk3sp-clang-19.1.7-lib/lib -L/nix/store/ad9j570pg9i32id8li4f6sibg2mjghi6-libcxx-19.1.7/lib -L/nix/store/jdz044dm4bp1k3k7qax8lz05ksgi31jg-compiler-rt-libc-19.1.7/lib -L/nix/store/c58pgxyyagq8kgf2pylh43pkvr23dn4n-python3-3.13.1/lib -L/nix/store/a87xsaqj28zp5j5diin6x1dk20l9da3y-ruff-0.9.6/lib -L/nix/store/msf2qxhv4971d669lmmjfp7kynj34jsy-libiconv-107/lib -L/nix/store/xg5sgywh9y8kym4ziw42c0867maw0hzp-libresolv-83/lib -L/nix/store/f4i9al764pzdsrikvqfhnf1bxa5ci31x-libsbuf-14.1.0/lib -L/nix/store/x960l69w3zj8y5n9dwfrcnrfv20lmi3m-libutil-72/lib -L/nix/store/cx5gh7gwhv06j4llivklbkfxyfgnk3sp-clang-19.1.7-lib/lib -L/nix/store/ad9j570pg9i32id8li4f6sibg2mjghi6-libcxx-19.1.7/lib -L/nix/store/jdz044dm4bp1k3k7qax8lz05ksgi31jg-compiler-rt-libc-19.1.7/lib -L/nix/store/c58pgxyyagq8kgf2pylh43pkvr23dn4n-python3-3.13.1/lib -L/nix/store/a87xsaqj28zp5j5diin6x1dk20l9da3y-ruff-0.9.6/lib -L/nix/store/msf2qxhv4971d669lmmjfp7kynj34jsy-libiconv-107/lib -L/nix/store/xg5sgywh9y8kym4ziw42c0867maw0hzp-libresolv-83/lib -L/nix/store/f4i9al764pzdsrikvqfhnf1bxa5ci31x-libsbuf-14.1.0/lib -L/nix/store/x960l69w3zj8y5n9dwfrcnrfv20lmi3m-libutil-72/lib'
+NIX_LDFLAGS=' -L/nix/store/cyrakdc5rxkzz36hfjgg6r1yig0infbs-clang-19.1.7-lib/lib -L/nix/store/m2jcvx713lz5zsgza5rsq7r29d792gv1-libcxx-19.1.7/lib -L/nix/store/krdzh53irgpav00m58z7aqd2a6h9wvl5-compiler-rt-libc-19.1.7/lib -L/nix/store/jn2aff295cbc8hpfpnl8iz7zdfi2dyhk-python3-3.13.2/lib -L/nix/store/jp5w55rf2nr1z14dcimyrymkz147b0hq-ruff-0.9.6/lib -L/nix/store/i0b08c8m02rs2sazmd7sr2zxbnz6ylsf-libiconv-109/lib -L/nix/store/2c41z35araahli1x6bdx0f5ppiphfqbz-libresolv-83/lib -L/nix/store/gbjd71m8pn0kg9kpj94vs9cdqpc0hggf-libsbuf-14.1.0/lib -L/nix/store/ha68a8n0cbss2kv16l76lz41cc3fgh1l-libutil-72/lib -L/nix/store/cyrakdc5rxkzz36hfjgg6r1yig0infbs-clang-19.1.7-lib/lib -L/nix/store/m2jcvx713lz5zsgza5rsq7r29d792gv1-libcxx-19.1.7/lib -L/nix/store/krdzh53irgpav00m58z7aqd2a6h9wvl5-compiler-rt-libc-19.1.7/lib -L/nix/store/jn2aff295cbc8hpfpnl8iz7zdfi2dyhk-python3-3.13.2/lib -L/nix/store/jp5w55rf2nr1z14dcimyrymkz147b0hq-ruff-0.9.6/lib -L/nix/store/i0b08c8m02rs2sazmd7sr2zxbnz6ylsf-libiconv-109/lib -L/nix/store/2c41z35araahli1x6bdx0f5ppiphfqbz-libresolv-83/lib -L/nix/store/gbjd71m8pn0kg9kpj94vs9cdqpc0hggf-libsbuf-14.1.0/lib -L/nix/store/ha68a8n0cbss2kv16l76lz41cc3fgh1l-libutil-72/lib'
 export NIX_LDFLAGS
 NIX_NO_SELF_RPATH='1'
 export NIX_NO_SELF_RPATH
@@ -74,23 +74,23 @@ export OBJDUMP
 OLDPWD=''
 export OLDPWD
 OPTERR='1'
-OSTYPE='darwin24.2.0'
-PATH='/nix/store/d32x2hd64mhi6mrngr3690pf9g5lrqi3-clang-wrapper-19.1.7/bin:/nix/store/syiggy82xdfg8rh5092xg18cqs4pcli2-clang-19.1.7/bin:/nix/store/y47p66ilr9q34s9mizscsdxw5vxq62qj-coreutils-9.5/bin:/nix/store/5678l9bsk2idc35jgbvanpdn690gha5g-cctools-binutils-darwin-wrapper-1010.6/bin:/nix/store/4ca9wnyjg9higmk22gmlrl28wcv0g4mf-cctools-binutils-darwin-1010.6/bin:/nix/store/8mrqrvh153h0aa2h8gjqf851j49578y4-xcbuild-0.1.1-unstable-2019-11-20-xcrun/bin:/nix/store/qlaqnmlh2fl0higl49jdfwa4054p6ra1-pyright-1.1.392/bin:/nix/store/c58pgxyyagq8kgf2pylh43pkvr23dn4n-python3-3.13.1/bin:/nix/store/a87xsaqj28zp5j5diin6x1dk20l9da3y-ruff-0.9.6/bin:/nix/store/w4nazrllmbx6kbp0bxwxxaz0axgk459x-uv-0.6.0/bin:/nix/store/msf2qxhv4971d669lmmjfp7kynj34jsy-libiconv-107/bin:/nix/store/y47p66ilr9q34s9mizscsdxw5vxq62qj-coreutils-9.5/bin:/nix/store/kjdn4yl7mx8dmgpxnfff1y298rbn13ap-findutils-4.10.0/bin:/nix/store/plbyfv574ij7r3riiyfrjk9i4d3b9nh6-diffutils-3.10/bin:/nix/store/y5izbakp8bqkrvl16nxg0zf3lmh4qrhq-gnused-4.9/bin:/nix/store/cb9y42w5z8p2wzpilfq9cx5lbx209q80-gnugrep-3.11/bin:/nix/store/fh2m05ig1xxryfkmxqnch2d3sav5hp5b-gawk-5.3.1/bin:/nix/store/kml4nkxhnb5w390alsmg1lv5ymq2afji-gnutar-1.35/bin:/nix/store/ydgz3dfagl1igzrlz33rzqy5hq19ayg1-gzip-1.13/bin:/nix/store/rwn5j32sm1mp70709pj67ax523sj7pny-bzip2-1.0.8-bin/bin:/nix/store/sbi3qw92i2lmm50agfl6hyys4ns5p1cb-gnumake-4.4.1/bin:/nix/store/x7m765hh1m4yikg9spw18lxldddvdnd0-bash-5.2p37/bin:/nix/store/d0vwvhw1z9jc7y7bpvqjdrrd5i698vp5-patch-2.7.6/bin:/nix/store/jixybrx7kl4fppd0sbd2ay0j2f3d8rdh-xz-5.6.3-bin/bin:/nix/store/21yzv1p120idh8iq8h3561cbpgjh0jdv-file-5.46/bin'
+OSTYPE='darwin24.3.0'
+PATH='/nix/store/0jd4fjnnrfz0dfxbc5lgfyxjfay73i77-clang-wrapper-19.1.7/bin:/nix/store/c397xq3dql1js7q2my001jz51fwxk8f2-clang-19.1.7/bin:/nix/store/fc3m1n18s3a5rs4fffaqhiykvdx7s32n-coreutils-9.6/bin:/nix/store/8v19r3366y400xmmsnpslpyddck2ma1m-cctools-binutils-darwin-wrapper-1010.6/bin:/nix/store/7y0vlsf6l8lr3vjsbrirqrsbx4mwqiwf-cctools-binutils-darwin-1010.6/bin:/nix/store/prpzadksziwxb1w7x9y57iqnai22ybbx-xcbuild-0.1.1-unstable-2019-11-20-xcrun/bin:/nix/store/hlhq9hclalsz8wyi8qbvrgf59w8xwv7s-pyright-1.1.392/bin:/nix/store/jn2aff295cbc8hpfpnl8iz7zdfi2dyhk-python3-3.13.2/bin:/nix/store/jp5w55rf2nr1z14dcimyrymkz147b0hq-ruff-0.9.6/bin:/nix/store/s9fwm8wa6k557qgzw8ggh3vzvc6mxghs-uv-0.6.2/bin:/nix/store/i0b08c8m02rs2sazmd7sr2zxbnz6ylsf-libiconv-109/bin:/nix/store/fc3m1n18s3a5rs4fffaqhiykvdx7s32n-coreutils-9.6/bin:/nix/store/c15yf86kbhsms01nylmfrwqczks5jgpq-findutils-4.10.0/bin:/nix/store/p6b6jmbwx1khdalzfq3llq5lxwpdj5sd-diffutils-3.10/bin:/nix/store/9kycqy5a6dcg236ahyl5n9g4ffq9hr5m-gnused-4.9/bin:/nix/store/0hyrbiwq9v43bpd9qmysscjynz7jl3s0-gnugrep-3.11/bin:/nix/store/qrwd1gm74raf808mgxf7q64lcrcrd00k-gawk-5.3.1/bin:/nix/store/20p718g1snq888pm73xhgjc9wx9pdfad-gnutar-1.35/bin:/nix/store/yma338pjwzvfic09qrg21rappjbd2a5h-gzip-1.13/bin:/nix/store/2wdyvqj4fg13rzm3cjmvqnhn1h4n5rm4-bzip2-1.0.8-bin/bin:/nix/store/27xhi94aggy63f3dcf349cln833hjkd8-gnumake-4.4.1/bin:/nix/store/r6hp1dz7lhg07z4qq9db91xf532f7xk8-bash-5.2p37/bin:/nix/store/8f3i51k7g7gpq8d5ccxlsw3nz1k5fjyj-patch-2.7.6/bin:/nix/store/6h0ikxcgrcf81zrris7v4bidsw0763qz-xz-5.6.4-bin/bin:/nix/store/sqpjj3a0390ll3vacdjlybkikh135gz4-file-5.46/bin'
 export PATH
-PATH_LOCALE='/nix/store/fhmqzmpm5l6is4k6kid4y1ca1mvfmbqr-locale-118/share/locale'
+PATH_LOCALE='/nix/store/92vq8z9pslvi9rn0z36a4yq68jnlppim-locale-118/share/locale'
 export PATH_LOCALE
 PS4='+ '
 PYTHONHASHSEED='0'
 export PYTHONHASHSEED
 PYTHONNOUSERSITE='1'
 export PYTHONNOUSERSITE
-PYTHONPATH='/nix/store/c58pgxyyagq8kgf2pylh43pkvr23dn4n-python3-3.13.1/lib/python3.13/site-packages'
+PYTHONPATH='/nix/store/jn2aff295cbc8hpfpnl8iz7zdfi2dyhk-python3-3.13.2/lib/python3.13/site-packages'
 export PYTHONPATH
 RANLIB='ranlib'
 export RANLIB
-SDKROOT='/nix/store/ca250dchzidqi7a97zf3ldn1abcry2qy-apple-sdk-11.3/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk'
+SDKROOT='/nix/store/lsjl29pwp5if71jfgxlv8fifsrpax805-apple-sdk-11.3/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk'
 export SDKROOT
-SHELL='/nix/store/x7m765hh1m4yikg9spw18lxldddvdnd0-bash-5.2p37/bin/bash'
+SHELL='/nix/store/r6hp1dz7lhg07z4qq9db91xf532f7xk8-bash-5.2p37/bin/bash'
 export SHELL
 SIZE='size'
 export SIZE
@@ -117,7 +117,7 @@ export __sandboxProfile
 __structuredAttrs=''
 export __structuredAttrs
 _substituteStream_has_warned_replace_deprecation='false'
-buildInputs='/nix/store/qlaqnmlh2fl0higl49jdfwa4054p6ra1-pyright-1.1.392 /nix/store/c58pgxyyagq8kgf2pylh43pkvr23dn4n-python3-3.13.1 /nix/store/a87xsaqj28zp5j5diin6x1dk20l9da3y-ruff-0.9.6 /nix/store/w4nazrllmbx6kbp0bxwxxaz0axgk459x-uv-0.6.0'
+buildInputs='/nix/store/hlhq9hclalsz8wyi8qbvrgf59w8xwv7s-pyright-1.1.392 /nix/store/jn2aff295cbc8hpfpnl8iz7zdfi2dyhk-python3-3.13.2 /nix/store/jp5w55rf2nr1z14dcimyrymkz147b0hq-ruff-0.9.6 /nix/store/s9fwm8wa6k557qgzw8ggh3vzvc6mxghs-uv-0.6.2'
 export buildInputs
 buildPhase='{ echo "------------------------------------------------------------";
   echo " WARNING: the existence of this path is not guaranteed.";
@@ -129,14 +129,14 @@ buildPhase='{ echo "------------------------------------------------------------
 } >> "$out"
 '
 export buildPhase
-builder='/nix/store/x7m765hh1m4yikg9spw18lxldddvdnd0-bash-5.2p37/bin/bash'
+builder='/nix/store/r6hp1dz7lhg07z4qq9db91xf532f7xk8-bash-5.2p37/bin/bash'
 export builder
 cmakeFlags=''
 export cmakeFlags
 configureFlags=''
 export configureFlags
-defaultBuildInputs='/nix/store/ca250dchzidqi7a97zf3ldn1abcry2qy-apple-sdk-11.3'
-defaultNativeBuildInputs='/nix/store/j74c425v0i3vcah2k5q896r2gx8b23p0-update-autotools-gnu-config-scripts-hook /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh /nix/store/shr47253n0j4c4lpvv6fmlvaq7vfvc3x-no-broken-symlinks.sh /nix/store/q84p4jvn5yalz937azdrfbyy32kl5s16-patch-shebangs.sh /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh /nix/store/z7k98578dfzi6l3hsvbivzm7hfqlk0zc-set-source-date-epoch-to-latest.sh /nix/store/pilsssjjdxvdphlg2h19p0bfx5q0jzkn-strip.sh /nix/store/d32x2hd64mhi6mrngr3690pf9g5lrqi3-clang-wrapper-19.1.7'
+defaultBuildInputs='/nix/store/lsjl29pwp5if71jfgxlv8fifsrpax805-apple-sdk-11.3'
+defaultNativeBuildInputs='/nix/store/avk3im3m1c7bb4ws9cx1ck00dgc7c0wa-update-autotools-gnu-config-scripts-hook /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh /nix/store/cmzya9irvxzlkh7lfy6i82gbp0saxqj3-multiple-outputs.sh /nix/store/jxknwvfj6kw8awi3lsjx1807q5q1sybz-no-broken-symlinks.sh /nix/store/hxv896faph0rqxjq2ycxpcrbnngc95sz-patch-shebangs.sh /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh /nix/store/z7k98578dfzi6l3hsvbivzm7hfqlk0zc-set-source-date-epoch-to-latest.sh /nix/store/pilsssjjdxvdphlg2h19p0bfx5q0jzkn-strip.sh /nix/store/0jd4fjnnrfz0dfxbc5lgfyxjfay73i77-clang-wrapper-19.1.7'
 depsBuildBuild=''
 export depsBuildBuild
 depsBuildBuildPropagated=''
@@ -166,12 +166,12 @@ declare -a envHostHostHooks=('ccWrapper_addCVars' 'bintoolsWrapper_addLDVars' 'a
 declare -a envHostTargetHooks=('ccWrapper_addCVars' 'bintoolsWrapper_addLDVars' 'addPythonPath' )
 declare -a envTargetTargetHooks=()
 declare -a fixupOutputHooks=('if [[ -z "${noAuditTmpdir-}" && -e "$prefix" ]]; then auditTmpdir "$prefix"; fi' 'if [ -z "${dontGzipMan-}" ]; then compressManPages "$prefix"; fi' '_moveLib64' '_moveSbin' '_moveSystemdUserUnits' 'patchShebangsAuto' '_pruneLibtoolFiles' '_doStrip' )
-initialPath='/nix/store/y47p66ilr9q34s9mizscsdxw5vxq62qj-coreutils-9.5 /nix/store/kjdn4yl7mx8dmgpxnfff1y298rbn13ap-findutils-4.10.0 /nix/store/plbyfv574ij7r3riiyfrjk9i4d3b9nh6-diffutils-3.10 /nix/store/y5izbakp8bqkrvl16nxg0zf3lmh4qrhq-gnused-4.9 /nix/store/cb9y42w5z8p2wzpilfq9cx5lbx209q80-gnugrep-3.11 /nix/store/fh2m05ig1xxryfkmxqnch2d3sav5hp5b-gawk-5.3.1 /nix/store/kml4nkxhnb5w390alsmg1lv5ymq2afji-gnutar-1.35 /nix/store/ydgz3dfagl1igzrlz33rzqy5hq19ayg1-gzip-1.13 /nix/store/rwn5j32sm1mp70709pj67ax523sj7pny-bzip2-1.0.8-bin /nix/store/sbi3qw92i2lmm50agfl6hyys4ns5p1cb-gnumake-4.4.1 /nix/store/x7m765hh1m4yikg9spw18lxldddvdnd0-bash-5.2p37 /nix/store/d0vwvhw1z9jc7y7bpvqjdrrd5i698vp5-patch-2.7.6 /nix/store/jixybrx7kl4fppd0sbd2ay0j2f3d8rdh-xz-5.6.3-bin /nix/store/21yzv1p120idh8iq8h3561cbpgjh0jdv-file-5.46'
+initialPath='/nix/store/fc3m1n18s3a5rs4fffaqhiykvdx7s32n-coreutils-9.6 /nix/store/c15yf86kbhsms01nylmfrwqczks5jgpq-findutils-4.10.0 /nix/store/p6b6jmbwx1khdalzfq3llq5lxwpdj5sd-diffutils-3.10 /nix/store/9kycqy5a6dcg236ahyl5n9g4ffq9hr5m-gnused-4.9 /nix/store/0hyrbiwq9v43bpd9qmysscjynz7jl3s0-gnugrep-3.11 /nix/store/qrwd1gm74raf808mgxf7q64lcrcrd00k-gawk-5.3.1 /nix/store/20p718g1snq888pm73xhgjc9wx9pdfad-gnutar-1.35 /nix/store/yma338pjwzvfic09qrg21rappjbd2a5h-gzip-1.13 /nix/store/2wdyvqj4fg13rzm3cjmvqnhn1h4n5rm4-bzip2-1.0.8-bin /nix/store/27xhi94aggy63f3dcf349cln833hjkd8-gnumake-4.4.1 /nix/store/r6hp1dz7lhg07z4qq9db91xf532f7xk8-bash-5.2p37 /nix/store/8f3i51k7g7gpq8d5ccxlsw3nz1k5fjyj-patch-2.7.6 /nix/store/6h0ikxcgrcf81zrris7v4bidsw0763qz-xz-5.6.4-bin /nix/store/sqpjj3a0390ll3vacdjlybkikh135gz4-file-5.46'
 mesonFlags=''
 export mesonFlags
 name='nix-shell-env'
 export name
-nativeBuildInputs='/nix/store/cx5gh7gwhv06j4llivklbkfxyfgnk3sp-clang-19.1.7-lib'
+nativeBuildInputs='/nix/store/cyrakdc5rxkzz36hfjgg6r1yig0infbs-clang-19.1.7-lib'
 export nativeBuildInputs
 out='/Users/erik/Code/github.com/erikwrightvbt/dagster_tutorial/outputs/out'
 export out
@@ -190,12 +190,12 @@ patches=''
 export patches
 phases='buildPhase'
 export phases
-pkg='/nix/store/ca250dchzidqi7a97zf3ldn1abcry2qy-apple-sdk-11.3'
+pkg='/nix/store/lsjl29pwp5if71jfgxlv8fifsrpax805-apple-sdk-11.3'
 declare -a pkgsBuildBuild=()
-declare -a pkgsBuildHost=('/nix/store/cx5gh7gwhv06j4llivklbkfxyfgnk3sp-clang-19.1.7-lib' '/nix/store/j74c425v0i3vcah2k5q896r2gx8b23p0-update-autotools-gnu-config-scripts-hook' '/nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh' '/nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh' '/nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh' '/nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh' '/nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh' '/nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh' '/nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh' '/nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh' '/nix/store/shr47253n0j4c4lpvv6fmlvaq7vfvc3x-no-broken-symlinks.sh' '/nix/store/q84p4jvn5yalz937azdrfbyy32kl5s16-patch-shebangs.sh' '/nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh' '/nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh' '/nix/store/z7k98578dfzi6l3hsvbivzm7hfqlk0zc-set-source-date-epoch-to-latest.sh' '/nix/store/pilsssjjdxvdphlg2h19p0bfx5q0jzkn-strip.sh' '/nix/store/d32x2hd64mhi6mrngr3690pf9g5lrqi3-clang-wrapper-19.1.7' '/nix/store/5678l9bsk2idc35jgbvanpdn690gha5g-cctools-binutils-darwin-wrapper-1010.6' '/nix/store/8mrqrvh153h0aa2h8gjqf851j49578y4-xcbuild-0.1.1-unstable-2019-11-20-xcrun' )
+declare -a pkgsBuildHost=('/nix/store/cyrakdc5rxkzz36hfjgg6r1yig0infbs-clang-19.1.7-lib' '/nix/store/avk3im3m1c7bb4ws9cx1ck00dgc7c0wa-update-autotools-gnu-config-scripts-hook' '/nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh' '/nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh' '/nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh' '/nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh' '/nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh' '/nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh' '/nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh' '/nix/store/cmzya9irvxzlkh7lfy6i82gbp0saxqj3-multiple-outputs.sh' '/nix/store/jxknwvfj6kw8awi3lsjx1807q5q1sybz-no-broken-symlinks.sh' '/nix/store/hxv896faph0rqxjq2ycxpcrbnngc95sz-patch-shebangs.sh' '/nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh' '/nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh' '/nix/store/z7k98578dfzi6l3hsvbivzm7hfqlk0zc-set-source-date-epoch-to-latest.sh' '/nix/store/pilsssjjdxvdphlg2h19p0bfx5q0jzkn-strip.sh' '/nix/store/0jd4fjnnrfz0dfxbc5lgfyxjfay73i77-clang-wrapper-19.1.7' '/nix/store/8v19r3366y400xmmsnpslpyddck2ma1m-cctools-binutils-darwin-wrapper-1010.6' '/nix/store/prpzadksziwxb1w7x9y57iqnai22ybbx-xcbuild-0.1.1-unstable-2019-11-20-xcrun' )
 declare -a pkgsBuildTarget=()
-declare -a pkgsHostHost=('/nix/store/yckp0i2z87b91dirmhvmig2z8gn0sgb1-libcxx-19.1.7-dev' '/nix/store/ad9j570pg9i32id8li4f6sibg2mjghi6-libcxx-19.1.7' '/nix/store/3vhm10x09fcwb96hb9djiil6l5z0l5pm-compiler-rt-libc-19.1.7-dev' '/nix/store/jdz044dm4bp1k3k7qax8lz05ksgi31jg-compiler-rt-libc-19.1.7' )
-declare -a pkgsHostTarget=('/nix/store/qlaqnmlh2fl0higl49jdfwa4054p6ra1-pyright-1.1.392' '/nix/store/c58pgxyyagq8kgf2pylh43pkvr23dn4n-python3-3.13.1' '/nix/store/a87xsaqj28zp5j5diin6x1dk20l9da3y-ruff-0.9.6' '/nix/store/w4nazrllmbx6kbp0bxwxxaz0axgk459x-uv-0.6.0' '/nix/store/ca250dchzidqi7a97zf3ldn1abcry2qy-apple-sdk-11.3' '/nix/store/wlcmrpqbnjm9vc9vx3xsc4b5dl18srlm-libiconv-107-dev' '/nix/store/msf2qxhv4971d669lmmjfp7kynj34jsy-libiconv-107' '/nix/store/i1s29qjrqj3i4yabrnr31i08ma7plyxr-libresolv-83-dev' '/nix/store/xg5sgywh9y8kym4ziw42c0867maw0hzp-libresolv-83' '/nix/store/v2cziracyhvp9226aszhk19ql2cpahrf-libsbuf-14.1.0-dev' '/nix/store/f4i9al764pzdsrikvqfhnf1bxa5ci31x-libsbuf-14.1.0' '/nix/store/x960l69w3zj8y5n9dwfrcnrfv20lmi3m-libutil-72' '/nix/store/jr7aacc5v5fp93mrv4vm0v63d3dwni91-cups-headers-2.4.11' )
+declare -a pkgsHostHost=('/nix/store/j3dhkx4m14m38drh3f40bccrwrgzlsg5-libcxx-19.1.7-dev' '/nix/store/m2jcvx713lz5zsgza5rsq7r29d792gv1-libcxx-19.1.7' '/nix/store/hklang3njvw0f5mgra9vsvn3c2zi2v45-compiler-rt-libc-19.1.7-dev' '/nix/store/krdzh53irgpav00m58z7aqd2a6h9wvl5-compiler-rt-libc-19.1.7' )
+declare -a pkgsHostTarget=('/nix/store/hlhq9hclalsz8wyi8qbvrgf59w8xwv7s-pyright-1.1.392' '/nix/store/jn2aff295cbc8hpfpnl8iz7zdfi2dyhk-python3-3.13.2' '/nix/store/jp5w55rf2nr1z14dcimyrymkz147b0hq-ruff-0.9.6' '/nix/store/s9fwm8wa6k557qgzw8ggh3vzvc6mxghs-uv-0.6.2' '/nix/store/lsjl29pwp5if71jfgxlv8fifsrpax805-apple-sdk-11.3' '/nix/store/f4z2y0zn2bmrwywp67y3h21cmb6ky547-libiconv-109-dev' '/nix/store/i0b08c8m02rs2sazmd7sr2zxbnz6ylsf-libiconv-109' '/nix/store/17a9rq4bw8drbhlr3dijrmxzfqlz8z85-libresolv-83-dev' '/nix/store/2c41z35araahli1x6bdx0f5ppiphfqbz-libresolv-83' '/nix/store/34bb5prqghfl0hpindhk8xlc5s2q2xjg-libsbuf-14.1.0-dev' '/nix/store/gbjd71m8pn0kg9kpj94vs9cdqpc0hggf-libsbuf-14.1.0' '/nix/store/ha68a8n0cbss2kv16l76lz41cc3fgh1l-libutil-72' '/nix/store/vzi6s9yh1i12bkj9abyfp43y6x1fdzpl-cups-headers-2.4.11' )
 declare -a pkgsTargetTarget=()
 declare -a postFixupHooks=('_makeSymlinksRelativeInAllOutputs' '_multioutPropagateDev' 'noBrokenSymlinksInAllOutputs' )
 declare -a postUnpackHooks=('_updateSourceDateEpochFromSourceRoot' )
@@ -212,7 +212,7 @@ declare -a propagatedHostDepFiles=('propagated-host-host-deps' 'propagated-build
 propagatedNativeBuildInputs=''
 export propagatedNativeBuildInputs
 declare -a propagatedTargetDepFiles=('propagated-target-target-deps' )
-shell='/nix/store/x7m765hh1m4yikg9spw18lxldddvdnd0-bash-5.2p37/bin/bash'
+shell='/nix/store/r6hp1dz7lhg07z4qq9db91xf532f7xk8-bash-5.2p37/bin/bash'
 export shell
 shellHook='uv cache clean
 if [ -d ".venv" ]; then
@@ -226,7 +226,7 @@ else
 fi
 '
 export shellHook
-stdenv='/nix/store/avr5vav4l5pc46mh0ihgxwxdhgzlg769-stdenv-darwin'
+stdenv='/nix/store/yagr58hrskzi3xy41pk4ssnn6b0d1w6b-stdenv-darwin'
 export stdenv
 strictDeps=''
 export strictDeps
@@ -585,7 +585,7 @@ _multioutConfig ()
             shareDocName="$(echo "$name" | sed 's/-[^a-zA-Z].*//')";
         fi;
     fi;
-    prependToVar configureFlags --bindir="${!outputBin}"/bin --sbindir="${!outputBin}"/sbin --includedir="${!outputInclude}"/include --oldincludedir="${!outputInclude}"/include --mandir="${!outputMan}"/share/man --infodir="${!outputInfo}"/share/info --docdir="${!outputDoc}"/share/doc/"${shareDocName}" --libdir="${!outputLib}"/lib --libexecdir="${!outputLib}"/libexec --localedir="${!outputLib}"/share/locale;
+    prependToVar configureFlags --bindir="${!outputBin}"/bin --sbindir="${!outputBin}"/sbin --includedir="${!outputInclude}"/include --mandir="${!outputMan}"/share/man --infodir="${!outputInfo}"/share/info --docdir="${!outputDoc}"/share/doc/"${shareDocName}" --libdir="${!outputLib}"/lib --libexecdir="${!outputLib}"/libexec --localedir="${!outputLib}"/share/locale;
     prependToVar installFlags pkgconfigdir="${!outputDev}"/lib/pkgconfig m4datadir="${!outputDev}"/share/aclocal aclocaldir="${!outputDev}"/share/aclocal
 }
 _multioutDevs ()
@@ -1520,11 +1520,11 @@ noBrokenSymlinks ()
             continue;
         fi;
         if [[ $path == "$symlinkTarget" ]]; then
-            nixErrorLog "the symlink $path is reflexive $symlinkTarget";
+            nixErrorLog "the symlink $path is reflexive";
             numReflexiveSymlinks+=1;
         else
             if [[ ! -e $symlinkTarget ]]; then
-                nixErrorLog "the symlink $path points to a missing target $symlinkTarget";
+                nixErrorLog "the symlink $path points to a missing target: $symlinkTarget";
                 numDanglingSymlinks+=1;
             else
                 nixDebugLog "the symlink $path is irreflexive and points to a target which exists";
@@ -1636,7 +1636,7 @@ patchShebangs ()
         if [[ "$oldPath" == *"/bin/env" ]]; then
             if [[ $arg0 == "-S" ]]; then
                 arg0=${args%% *};
-                args=${args#* };
+                [[ "$args" == *" "* ]] && args=${args#* } || args=;
                 newPath="$(PATH="${!pathName}" type -P "env" || true)";
                 args="-S $(PATH="${!pathName}" type -P "$arg0" || true) $args";
             else
@@ -1969,21 +1969,17 @@ substituteStream ()
                 pattern="$2";
                 replacement="$3";
                 shift 3;
-                local savedvar;
-                savedvar="${!var}";
-                eval "$var"'=${'"$var"'//"$pattern"/"$replacement"}';
-                if [ "$pattern" != "$replacement" ]; then
-                    if [ "${!var}" == "$savedvar" ]; then
-                        if [ "$replace_mode" == --replace-warn ]; then
-                            printf "substituteStream() in derivation $name: WARNING: pattern %q doesn't match anything in %s\n" "$pattern" "$description" 1>&2;
-                        else
-                            if [ "$replace_mode" == --replace-fail ]; then
-                                printf "substituteStream() in derivation $name: ERROR: pattern %q doesn't match anything in %s\n" "$pattern" "$description" 1>&2;
-                                return 1;
-                            fi;
+                if ! [[ "${!var}" == *"$pattern"* ]]; then
+                    if [ "$replace_mode" == --replace-warn ]; then
+                        printf "substituteStream() in derivation $name: WARNING: pattern %q doesn't match anything in %s\n" "$pattern" "$description" 1>&2;
+                    else
+                        if [ "$replace_mode" == --replace-fail ]; then
+                            printf "substituteStream() in derivation $name: ERROR: pattern %q doesn't match anything in %s\n" "$pattern" "$description" 1>&2;
+                            return 1;
                         fi;
                     fi;
-                fi
+                fi;
+                eval "$var"'=${'"$var"'//"$pattern"/"$replacement"}'
             ;;
             --subst-var)
                 local varName="$2";
@@ -2105,7 +2101,7 @@ updateAutotoolsGnuConfigScriptsPhase ()
         for f in $(find . -type f -name "$script");
         do
             echo "Updating Autotools / GNU config script to a newer upstream version: $f";
-            cp -f "/nix/store/yik355xf81sfp5q09y5y9lcajz09l3d1-gnu-config-2024-01-01/$script" "$f";
+            cp -f "/nix/store/446y93j5kjyk1ziyippnmn1qcqdhxgdg-gnu-config-2024-01-01/$script" "$f";
         done;
     done
 }
