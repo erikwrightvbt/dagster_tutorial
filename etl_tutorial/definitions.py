@@ -125,6 +125,22 @@ def joined_data(duckdb: DuckDBResource) -> dg.MaterializeResult:
             }
         )
 
+@dg.asset_check(asset=joined_data)
+def missing_dimension_check(duckdb: DuckDBResource) -> dg.AssetCheckResult:
+    with duckdb.get_connection() as conn:
+        query_result = conn.execute(
+            """
+            select count(*) from joined_data
+            where rep_name is null
+            or product_name is null
+            """
+        ).fetchone()
+
+        count = query_result[0] if query_result else 0
+        return dg.AssetCheckResult(
+            passed=count == 0, metadata={"missing dimensions": count}
+        )
+
 defs = dg.Definitions(
     assets=[
         products,
@@ -132,5 +148,6 @@ defs = dg.Definitions(
         sales_data,
         joined_data,
     ],
+    asset_checks=[missing_dimension_check],
     resources={"duckdb": DuckDBResource(database="data/mydb.duckdb")},
 )
