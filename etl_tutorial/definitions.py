@@ -141,12 +141,123 @@ def missing_dimension_check(duckdb: DuckDBResource) -> dg.AssetCheckResult:
             passed=count == 0, metadata={"missing dimensions": count}
         )
 
+monthly_partition = dg.MonthlyPartitionsDefinition(start_date="2024-01-01")
+
+@dg.asset(
+    partitions_def=monthly_partition,
+    compute_kind="duckdb",
+    group_name="analysis",
+    deps=[joined_data],
+)
+def monthly_sales_performance(
+    context: dg.AssetExecutionContext, duckdb: DuckDBResource
+):
+    partition_date_str = context.partition_key
+    month_to_fetch = partition_date_str[:-3]
+
+    with duckdb.get_connection() as conn:
+        conn.execute(
+            f"""
+            create table if not exists monthly_sales_performance (
+                partition_date varchar,
+                rep_name varchar,
+                product varchar,
+                total_dollar_amount double
+            );
+
+            delete from monthly_sales_performance where partition_date = '{month_to_fetch}';
+
+            insert into monthly_sales_performance
+            select
+                '{month_to_fetch}' as partition_date,
+                rep_name, 
+                product_name,
+                sum(dollar_amount) as total_dollar_amount
+            from joined_data where strftime(date, '%Y-%m') = '{month_to_fetch}'
+            group by '{month_to_fetch}', rep_name, product_name;
+            """
+        )
+
+        preview_query = f"select * from monthly_sales_performance where partition_date = '{month_to_fetch}';"
+        preview_df = conn.execute(preview_query).fetchdf()
+        row_count = conn.execute(
+            f"""
+            select count(*)
+            from monthly_sales_performance
+            where partition_date = '{month_to_fetch}'
+            """
+        ).fetchone()
+        count = row_count[0] if row_count else 0
+
+    return dg.MaterializeResult(
+        metadata={
+            "row_count": dg.MetadataValue.int(count),
+            "preview": dg.MetadataValue.md(str(preview_df.to_markdown(index=False))),
+        }
+    )
+
+product_category_partition = dg.StaticPartitionsDefinition(
+    ["Electronics", "Books", "Home and Garden", "Clothing"]
+)
+
+@dg.asset(
+    deps=[joined_data],
+    partitions_def=product_category_partition,
+    group_name="analysis",
+    compute_kind="duckdb",
+)
+def product_performance(context: dg.AssetExecutionContext, duckdb: DuckDBResource):
+    product_category_str = context.partition_key
+
+    with duckdb.get_connection() as conn:
+        conn.execute(
+            f"""
+            create table if not exists product_performance (
+                product_category varchar, 
+                product_name varchar,
+                total_dollar_amount double,
+                total_units_sold double
+            );
+
+            delete from product_performance where product_category = '{product_category_str}';
+
+            insert into product_performance
+            select
+                '{product_category_str}' as product_category,
+                product_name,
+                sum(dollar_amount) as total_dollar_amount,
+                sum(quantity) as total_units_sold
+            from joined_data 
+            where category = '{product_category_str}'
+            group by '{product_category_str}', product_name;
+            """
+        )
+        preview_query = f"select * from product_performance where product_category = '{product_category_str}';"
+        preview_df = conn.execute(preview_query).fetchdf()
+        row_count = conn.execute(
+            f"""
+            SELECT COUNT(*)
+            FROM product_performance
+            WHERE product_category = '{product_category_str}';
+            """
+        ).fetchone()
+        count = row_count[0] if row_count else 0
+
+    return dg.MaterializeResult(
+        metadata={
+            "row_count": dg.MetadataValue.int(count),
+            "preview": dg.MetadataValue.md(str(preview_df.to_markdown(index=False))),
+        }
+    )
+
 defs = dg.Definitions(
     assets=[
         products,
         sales_reps,
         sales_data,
         joined_data,
+        monthly_sales_performance,
+        product_performance,
     ],
     asset_checks=[missing_dimension_check],
     resources={"duckdb": DuckDBResource(database="data/mydb.duckdb")},
